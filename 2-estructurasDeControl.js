@@ -149,11 +149,12 @@ function esVocal(letra) {
 function evaluarNumeros(a, b, c) {
     // Tu código aquí
     if (a > 0 && b > 0 && c > 0) {
-        console.log("todos los numeros son positivos")
-    } else if (a < 0  || b < 0 || c < o) {
-         console.log("al menos uno es negativo")
+        console.log("todos los numeros son positivos");
     } else if (a < 0 && b <0 && c < 0){
         console.log("todos son negativos")
+    }else if (a < 0  || b < 0 || c < o) {
+         console.log("al menos uno es negativo")
+   
     }
 }
 
